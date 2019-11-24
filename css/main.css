@@ -11,3 +11,22 @@
     color: #000;
 }
 
+/*select the body tag*/
+
+dy {
+    background: none repeat scroll 0 0 #fff;
+/*change the text color to light blackish*/
+    color: #222;
+    /*set default margin to 0 - becuase every browser has a different default*/
+
+    margin: 0; 
+
+}
+/*select all anchor tags*/
+a {
+	/*change the text color to light blackish*/
+      color: #222;
+	/*change the text color to light blackish*/
+    text-decoration: none;
+}
+

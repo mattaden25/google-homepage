@@ -30,3 +30,25 @@ a {
     text-decoration: none;
 }
 
+/*select all anchor tags that have a class of button and are hovered on*/
+a.button:hover {
+	/*remove underline from hovered on buttons*/
+	text-decoration: none;
+}
+/*==================================================
+	Top Section - Navigation
+==================================================*/
+/*select any elements with a class of top-navigation*/
+.top-navigation {
+	float:right;
+	margin-right: 25px;
+}
+/*select any elements with a class of top-navigation and find any li tags inside those*/
+.top-navigation li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding: 5px 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	

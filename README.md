@@ -1,0 +1,1 @@
+This is a simple HMTL + CSS web app intended to replicate the google.com homepage.

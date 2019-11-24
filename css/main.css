@@ -51,4 +51,12 @@ a.button:hover {
 	padding: 5px 10px 0 0;
 	vertical-align: bottom;
 	margin: 5px 5px 0 0;
-	
+	font-size: 13px;
+}
+/*select the font awesome standard class to change the icons*/
+.fa {
+	font-size: 20px;
+	vertical-align: top;
+	opacity: 0.7;
+	cursor: default;
+}

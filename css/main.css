@@ -86,11 +86,7 @@ a.button:hover {
 	Middle Section - Search Box
 ==================================================*/
 /*select any elements with a class of search-box*/
-span {
-    position: relative;
-    right: 478px;
-    top: 5px
-}
+
 .search-box {
 	position: absolute;
 	margin-top:75px;

@@ -72,3 +72,15 @@ a.button:hover {
 	position: relative;
 	top: -3px;
 }
+/*select any elements with a class of share-button that is hovered on*/
+.share-button:hover {
+	background-color: #E1E1E1;
+}
+/*select any elements with a class of profile-img*/
+.profile-img {
+	border-radius: 25px;
+	height: 32px;
+    width: 32px;
+    position: relative;
+    top: 5px;
+}

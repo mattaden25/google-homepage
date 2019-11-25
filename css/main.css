@@ -13,7 +13,7 @@
 
 /*select the body tag*/
 
-dy {
+body {
     background: none repeat scroll 0 0 #fff;
 /*change the text color to light blackish*/
     color: #222;
@@ -28,6 +28,12 @@ a {
       color: #222;
 	/*change the text color to light blackish*/
     text-decoration: none;
+}
+a:hover {
+	/*change color on hover*/
+	color: #222;
+	/*add underline when user hovers*/
+	text-decoration: underline;
 }
 
 /*select all anchor tags that have a class of button and are hovered on*/

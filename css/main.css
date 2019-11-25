@@ -41,55 +41,10 @@ a.button:hover {
 	/*remove underline from hovered on buttons*/
 	text-decoration: none;
 }
-/*==================================================
-	Top Section - Navigation
-==================================================*/
-/*select any elements with a class of top-navigation*/
-.top-navigation {
-	float:right;
-	margin-right: 25px;
-}
-/*select any elements with a class of top-navigation and find any li tags inside those*/
-.top-navigation li{
-	list-style: none;
-	display: inline-block;
-	text-align: right;
-	padding: 5px 10px 0 0;
-	vertical-align: bottom;
-	margin: 5px 5px 0 0;
-	font-size: 13px;
-}
-/*select the font awesome standard class to change the icons*/
-.fa {
-	font-size: 20px;
-	vertical-align: top;
-	opacity: 0.7;
-	cursor: default;
-}
-/*select the font awesome icons on hover*/
-.fa:hover {
-	opacity: 1.0;
-}
-/*select any elements with a class of share-button*/
-.share-button {
-	background-color: #f2f2f2;
-	padding:7px 15px;
-	cursor: default;
-	position: relative;
-	top: -3px;
-}
-/*select any elements with a class of share-button that is hovered on*/
-.share-button:hover {
-	background-color: #E1E1E1;
-}
-/*select any elements with a class of profile-img*/
-.profile-img {
-	border-radius: 25px;
-	height: 32px;
-    width: 32px;
-    position: relative;
-    top: 5px;
-}
+
+
+
+
 /*==================================================
 	Middle Section - Search Box
 ==================================================*/

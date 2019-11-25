@@ -2,49 +2,86 @@
 	Sitewide Styles
 ==================================================*/
 /*select all things - seriously use this one very wisely*/
-
-    
-
-/*change the default color of all elements to black*/
 * {
-
-    color: #000;
+	/*change the default color of all elements to black*/
+	color: #000;
 }
-
 /*select the body tag*/
-
 body {
-    background: none repeat scroll 0 0 #fff;
-/*change the text color to light blackish*/
+	background: none repeat scroll 0 0 #fff;
+	/*change the text color to light blackish*/
     color: #222;
     /*set default margin to 0 - becuase every browser has a different default*/
-
-    margin: 0; 
-
+    margin:0;
 }
 /*select all anchor tags*/
-a {
+a {	
 	/*change the text color to light blackish*/
-      color: #222;
-	/*change the text color to light blackish*/
-    text-decoration: none;
+	color:#222;
+	/*remove default underline*/
+	text-decoration: none;
 }
+/*select all anchor tags that are hovered on*/
 a:hover {
 	/*change color on hover*/
 	color: #222;
 	/*add underline when user hovers*/
 	text-decoration: underline;
 }
-
 /*select all anchor tags that have a class of button and are hovered on*/
 a.button:hover {
 	/*remove underline from hovered on buttons*/
 	text-decoration: none;
 }
-
-
-
-
+/*==================================================
+	Top Section - Navigation
+==================================================*/
+/*select any elements with a class of top-navigation*/
+.top-navigation {
+	float:right;
+	margin-right: 25px;
+}
+/*select any elements with a class of top-navigation and find any li tags inside those*/
+.top-navigation li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding: 5px 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+}
+/*select the font awesome standard class to change the icons*/
+.fa {
+	font-size: 20px;
+	vertical-align: top;
+	opacity: 0.7;
+	cursor: default;
+}
+/*select the font awesome icons on hover*/
+.fa:hover {
+	opacity: 1.0;
+}
+/*select any elements with a class of share-button*/
+.share-button {
+	background-color: #f2f2f2;
+	padding:7px 15px;
+	cursor: default;
+	position: relative;
+    top: -3px;
+}
+/*select any elements with a class of share-button that is hovered on*/
+.share-button:hover {
+	background-color: #E1E1E1;
+}
+/*select any elements with a class of profile-img*/
+.profile-img {
+	border-radius: 25px;
+	height: 32px;
+    width: 32px;
+    position: relative;
+    top: 5px;
+}
 /*==================================================
 	Middle Section - Search Box
 ==================================================*/
